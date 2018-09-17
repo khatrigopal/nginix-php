@@ -1,0 +1,15 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - apt-get update -y
+      - apt-get -y install git
+      - pip install --upgrade --user awscli
+  build:
+    commands:
+      - pwd
+      - ls -la
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
