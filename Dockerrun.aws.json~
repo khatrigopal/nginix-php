@@ -23,7 +23,7 @@
   "containerDefinitions": [
     {
       "name": "php-app",
-      "image": "810457283407.dkr.ecr.us-east-1.amazonaws.com/techmart-php-fpm:5.6",
+      "image": "116704600407.dkr.ecr.us-east-1.amazonaws.com/docker-php-fpm:5.6",
       "essential": true,
       "memoryReservation": 512,
       "mountPoints": [
