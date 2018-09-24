@@ -23,7 +23,7 @@
   "containerDefinitions": [
     {
       "name": "php-app",
-      "image": "303881546381.dkr.ecr.us-east-2.amazonaws.com/php-fpm5.6",
+      "image": "303881546381.dkr.ecr.us-east-2.amazonaws.com/php-fpm5.6:latest",
       "essential": true,
       "memoryReservation": 512,
       "mountPoints": [
@@ -45,7 +45,7 @@
     },
     {
       "name": "nginx-proxy",
-      "image": "303881546381.dkr.ecr.us-east-2.amazonaws.com/nginx-sandwitch",
+      "image": "303881546381.dkr.ecr.us-east-2.amazonaws.com/nginx-sandwitch:latest",
       "essential": true,
       "memory": 128,
       "portMappings": [
